@@ -11,15 +11,13 @@ function App() {
   return (
     <>
       <section id="center">
-        <div className="hero">
+        <div>
           <img src={rlcsLogo} width="300" height="100" alt="RLCS Logo"/>
         </div>
         <div>
           <h1>Rocket League Paris Major</h1>
           <h2>Spring 2026</h2>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
+          <p>May 20-24 - Sign Up Now!</p>
         </div>
         <button
           className="counter"
