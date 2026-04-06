@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import rlcsLogo from './assets/RLCS_2020_darkmode.png'
 import './App.css'
 import { Routes, Route, Link } from 'react-router-dom'
-import { Nav, Navbar, Container } from 'react-bootstrap'
+import { Nav, Navbar, Button, Container, Row, Col, Card, Table } from 'react-bootstrap'
 
 function App() {
   return (
@@ -16,13 +16,6 @@ function App() {
         <Link to="/schedule">Schedule</Link>
         <Link to="/about">About</Link> |{" "}
       </nav> */}
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/teams" element={<Teams />} />
-        <Route path="/schedule" element={<Schedule />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
     
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
@@ -31,41 +24,88 @@ function App() {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/teams">Teams</Nav.Link>
             <Nav.Link as={Link} to="/schedule">Schedule</Nav.Link>
+            <Nav.Link as={Link} to="/about">About</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/teams" element={<Teams />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </>
   )
 }
 
 function Home() {
   return (
-    <section id="center">
+    <Container className="text-center mt-5">
       <img src={rlcsLogo} width="300" height="100" alt="RLCS Logo"/>
       <h1>Rocket League Paris Major</h1>
-      <h2>Spring 2026</h2>
-      <p>May 20-24 - Sign Up Now!</p>
-    </section>
+      <h3>Spring 2026</h3>
+      <p>May 20–24</p>
+      <Button variant="primary">Sign Up</Button>
+    </Container>
   )
 }
 
 function Teams() {
-  return <div>
-    <h1>Teams Page</h1>
-    <h2></h2>
-  </div>
-    
+  const teams = ["Karmine Corp", "Vitality", "Shopify Rebellion", "NRG", ]
+
+  return (
+    <Container className="mt-4">
+      <h2 className="mb-4">Qualified Teams</h2>
+
+      <Row>
+        {teams.map((team, i) => (
+          <Col md={4} key={i} className="mb-3">
+            <Card>
+              <Card.Body>
+                <Card.Title>{team}</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+
+    </Container>
+  )  
 }
 
 function Schedule() {
-  return <h1>Schedule Page</h1>
+  return (
+    <Container className="mt-4">
+      <h2>Schedule</h2>
+      <Table striped bordered hover>
+        <thead>
+          <tr>
+            <th>Match</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Team A vs Team B</td>
+            <td>May 20</td>
+          </tr>
+        </tbody>
+      </Table>
+    </Container>
+  )
 }
 
 function About() {
-  return <div>
-    <h1>Bienvenue à Paris!</h1>
-    <p>The top teams of all around the world meet at Paris La Défense Arena to compete for the title of Rocket League Championship Series Major Champions.</p>
-  </div>
+  return (
+    <Container className="mt-4">
+      <h1>Bienvenue à Paris!</h1>
+      <p>
+        The top teams from around the world meet at Paris La Défense Arena
+        to compete for the RLCS Major title.
+      </p>
+    </Container>
+  )
 }
 
 export default App
