@@ -2,10 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
-import rlcsLogo from './assets/RLCS_2020_darkmode.png'
+// import rlcsLogo from './assets/RLCS_2020_darkmode.png'
 import './App.css'
 import { Routes, Route, Link } from 'react-router-dom'
 import { Nav, Navbar, Button, Container, Row, Col, Card, Table } from 'react-bootstrap'
+
+import Home from './pages/Home'
+import Teams from './pages/Teams'
+import Schedule from './pages/Schedule'
+import About from './pages/About'
 
 function App() {
   return (
@@ -39,73 +44,73 @@ function App() {
   )
 }
 
-function Home() {
-  return (
-    <Container className="text-center mt-5">
-      <img src={rlcsLogo} width="300" height="100" alt="RLCS Logo"/>
-      <h1>Rocket League Paris Major</h1>
-      <h3>Spring 2026</h3>
-      <p>May 20–24</p>
-      <Button variant="primary">Sign Up</Button>
-    </Container>
-  )
-}
+// function Home() {
+//   return (
+//     <Container className="text-center mt-5">
+//       <img src={rlcsLogo} width="300" height="100" alt="RLCS Logo"/>
+//       <h1>Rocket League Paris Major</h1>
+//       <h3>Spring 2026</h3>
+//       <p>May 20–24</p>
+//       <Button variant="primary">Sign Up</Button>
+//     </Container>
+//   )
+// }
 
-function Teams() {
-  const teams = ["Karmine Corp", "Vitality", "Shopify Rebellion", "NRG", ]
+// function Teams() {
+//   const teams = ["Karmine Corp", "Vitality", "Shopify Rebellion", "NRG", ]
 
-  return (
-    <Container className="mt-4">
-      <h2 className="mb-4">Qualified Teams</h2>
+//   return (
+//     <Container className="mt-4">
+//       <h2 className="mb-4">Qualified Teams</h2>
 
-      <Row>
-        {teams.map((team, i) => (
-          <Col md={4} key={i} className="mb-3">
-            <Card>
-              <Card.Body>
-                <Card.Title>{team}</Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-        ))}
-      </Row>
+//       <Row>
+//         {teams.map((team, i) => (
+//           <Col md={4} key={i} className="mb-3">
+//             <Card>
+//               <Card.Body>
+//                 <Card.Title>{team}</Card.Title>
+//               </Card.Body>
+//             </Card>
+//           </Col>
+//         ))}
+//       </Row>
 
-    </Container>
-  )  
-}
+//     </Container>
+//   )  
+// }
 
-function Schedule() {
-  return (
-    <Container className="mt-4">
-      <h2>Schedule</h2>
-      <Table striped bordered hover>
-        <thead>
-          <tr>
-            <th>Match</th>
-            <th>Date</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Team A vs Team B</td>
-            <td>May 20</td>
-          </tr>
-        </tbody>
-      </Table>
-    </Container>
-  )
-}
+// function Schedule() {
+//   return (
+//     <Container className="mt-4">
+//       <h2>Schedule</h2>
+//       <Table striped bordered hover>
+//         <thead>
+//           <tr>
+//             <th>Match</th>
+//             <th>Date</th>
+//           </tr>
+//         </thead>
+//         <tbody>
+//           <tr>
+//             <td>Team A vs Team B</td>
+//             <td>May 20</td>
+//           </tr>
+//         </tbody>
+//       </Table>
+//     </Container>
+//   )
+// }
 
-function About() {
-  return (
-    <Container className="mt-4">
-      <h1>Bienvenue à Paris!</h1>
-      <p>
-        The top teams from around the world meet at Paris La Défense Arena
-        to compete for the RLCS Major title.
-      </p>
-    </Container>
-  )
-}
+// function About() {
+//   return (
+//     <Container className="mt-4">
+//       <h1>Bienvenue à Paris!</h1>
+//       <p>
+//         The top teams from around the world meet at Paris La Défense Arena
+//         to compete for the RLCS Major title.
+//       </p>
+//     </Container>
+//   )
+// }
 
 export default App
