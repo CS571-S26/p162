@@ -1,6 +1,7 @@
 import { Button, Container } from 'react-bootstrap'
 import rlcsLogo from '../assets/RLCS_2020_darkmode.png'
 
+
 function Home() {
   return (
     <Container className="text-center mt-5">

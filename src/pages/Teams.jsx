@@ -6,11 +6,11 @@ function Teams() {
 
   return (
     <Container className="mt-4">
-      <h2 className="mb-4">Qualified Teams</h2>
+      <h2 className="mb-4 text-center">Qualified Teams</h2>
 
       <Row>
         {teams.map((team, i) => (
-          <Col md={4} key={i} className="mb-3">
+          <Col xs={12} sm={6} md={3} key={i} className="mb-4">
             <TeamCard name={team}/>
           </Col>
         ))}

@@ -22,10 +22,10 @@ function App() {
         <Link to="/about">About</Link> |{" "}
       </nav> */}
     
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
         <Container>
           <Navbar.Brand as={Link} to="/">RLCS Paris</Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/teams">Teams</Nav.Link>
             <Nav.Link as={Link} to="/schedule">Schedule</Nav.Link>
