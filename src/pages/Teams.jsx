@@ -1,4 +1,5 @@
 import { Container, Col, Row, Card } from 'react-bootstrap'
+import TeamCard from '../TeamCard'
 
 function Teams() {
   const teams = ["Karmine Corp", "Vitality", "Shopify Rebellion", "NRG", ]
@@ -10,11 +11,7 @@ function Teams() {
       <Row>
         {teams.map((team, i) => (
           <Col md={4} key={i} className="mb-3">
-            <Card>
-              <Card.Body>
-                <Card.Title>{team}</Card.Title>
-              </Card.Body>
-            </Card>
+            <TeamCard name={team}/>
           </Col>
         ))}
       </Row>
