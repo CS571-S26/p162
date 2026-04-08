@@ -10,7 +10,20 @@ function Home() {
       <h3>Spring 2026</h3>
       <p>May 20–24</p>
       <Button variant="primary">Sign Up</Button>
+
+      <h2 className="text-center mb-3">Official Announcement</h2>
+
+      <div className="ratio ratio-16x9">
+        <iframe
+          src="https://www.youtube.com/embed/PrO_WmDgeko"
+          title="RLCS Paris Major Announcement"
+          allowFullScreen
+        ></iframe>
+      </div>
+      
     </Container>
+
+    
   )
 }
 
