@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Karmine Corp",
+    "region": "EU",
+    "logo": "/teams/kc.png",
+    "players": ["Vatira", "Atow", "Juicy"]
+  },
+  {
+    "name": "Vitality",
+    "region": "EU",
+    "logo": "/teams/vitality.png",
+    "players": ["Zen", "Exotik", "Stizzy"]
+  },
+  {
+    "name": "NRG",
+    "region": "NA",
+    "logo": "/teams/nrg.png",
+    "players": ["Beastmode", "Daniel", "Atomic"]
+  }
+]
