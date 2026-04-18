@@ -1,4 +1,4 @@
-import { Container, Col, Row, Card, Button } from 'react-bootstrap'
+import { Container, Col, Row, Button } from 'react-bootstrap'
 import { useState, useEffect } from 'react'
 import TeamCard from '../TeamCard'
 
