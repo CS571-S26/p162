@@ -1,4 +1,4 @@
-import { Container, Col, Row, Card } from 'react-bootstrap'
+import { Container, Col, Row, Card, Button } from 'react-bootstrap'
 import { useState, useEffect } from 'react'
 import TeamCard from '../TeamCard'
 
@@ -7,7 +7,7 @@ function Teams() {
   const [region, setRegion] = useState("ALL")
 
   useEffect(() => {
-    fetch("/p162/public/data/teams.json")
+    fetch(`${import.meta.env.BASE_URL}data/teams.json`)
       .then(res => res.json())
       .then(data => setTeams(data))
   }, [])
@@ -30,7 +30,7 @@ function Teams() {
       <Row>
         {filtered.map((team, i) => (
           <Col xs={12} sm={6} md={3} key={i} className="mb-4">
-            <TeamCard name={team}/>
+            <TeamCard team={team}/>
           </Col>
         ))}
       </Row>
