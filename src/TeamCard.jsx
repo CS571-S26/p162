@@ -1,17 +1,14 @@
 import { Card, Button } from 'react-bootstrap'
 import { useState } from 'react'
 
-function TeamCard({ name }) {
+function TeamCard({ team }) {
     const [showPlayers, setShowPlayers] = useState(false)
 
-    const handleClick = () => {
-        
-    }
-
   return (
-    <Card className="text-center shadow-sm" onClick={handleClick}>
+    <Card className="text-center shadow-sm">
       <Card.Body>
-        <Card.Title>{name}</Card.Title>
+        <img src={team.logo} alt={team.name} width="80" />
+        <Card.Title className="mt-2">{team.name}</Card.Title>
 
         <Button
             variant="primary"
