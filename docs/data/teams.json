@@ -16,5 +16,47 @@
     "region": "NA",
     "logo": "/teams/nrg.png",
     "players": ["Beastmode", "Daniel", "Atomic"]
+  },
+  {
+    "name": "Spacestation Gaming",
+    "region": "NA",
+    "logo": "/teams/ssg.png",
+    "players": ["Diaz", "Zach", "Reveal"]
+  },
+  {
+    "name": "Shopify Rebellion",
+    "region": "NA",
+    "logo": "/teams/sr.png",
+    "players": ["Firstkiller", "Kofyr", "Lj"]
+  },
+  {
+    "name": "FUT Esports",
+    "region": "NA",
+    "logo": "/teams/fut.png",
+    "players": ["Justin", "Cheese", "Chronic"]
+  },
+  {
+    "name": "Twisted Minds",
+    "region": "MENA",
+    "logo": "/teams/tm.png",
+    "players": ["M0nkey M00n", "Nwpo", "Trk511"]
+  },
+  {
+    "name": "R8 Esport",
+    "region": "MENA",
+    "logo": "/teams/r8.png",
+    "players": ["Abdullah", "Ghaazi", "M7md"]
+  },
+  {
+    "name": "Wildcard",
+    "region": "OCE",
+    "logo": "/teams/wild.png",
+    "players": ["Torsos", "bananahead", "Fever"]
+  },
+  {
+    "name": "Five Fears",
+    "region": "SSA",
+    "logo": "/teams/ff.png",
+    "players": ["tehqoz", "Snowyy", "gunz"]
   }
 ]

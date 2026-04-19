@@ -25,6 +25,9 @@ function Teams() {
         <Button onClick={() => setRegion("ALL")}>All</Button>{" "}
         <Button onClick={() => setRegion("EU")}>EU</Button>{" "}
         <Button onClick={() => setRegion("NA")}>NA</Button>
+        <Button onClick={() => setRegion("OCE")}>OCE</Button>
+        <Button onClick={() => setRegion("MENA")}>MENA</Button>
+        <Button onClick={() => setRegion("SSA")}>SSA</Button>
       </div>
 
       <Row>
