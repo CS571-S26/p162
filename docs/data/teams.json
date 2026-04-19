@@ -2,61 +2,61 @@
   {
     "name": "Karmine Corp",
     "region": "EU",
-    "logo": "/teams/kc.png",
+    "logo": "teams/kc.png",
     "players": ["Vatira", "Atow", "Juicy"]
   },
   {
     "name": "Vitality",
     "region": "EU",
-    "logo": "/teams/vitality.png",
+    "logo": "teams/vitality.png",
     "players": ["Zen", "Exotik", "Stizzy"]
   },
   {
     "name": "NRG",
     "region": "NA",
-    "logo": "/teams/nrg.png",
+    "logo": "teams/nrg.png",
     "players": ["Beastmode", "Daniel", "Atomic"]
   },
   {
     "name": "Spacestation Gaming",
     "region": "NA",
-    "logo": "/teams/ssg.png",
+    "logo": "teams/ssg.png",
     "players": ["Diaz", "Zach", "Reveal"]
   },
   {
     "name": "Shopify Rebellion",
     "region": "NA",
-    "logo": "/teams/sr.png",
+    "logo": "teams/sr.png",
     "players": ["Firstkiller", "Kofyr", "Lj"]
   },
   {
     "name": "FUT Esports",
     "region": "NA",
-    "logo": "/teams/fut.png",
+    "logo": "teams/fut.png",
     "players": ["Justin", "Cheese", "Chronic"]
   },
   {
     "name": "Twisted Minds",
     "region": "MENA",
-    "logo": "/teams/tm.png",
+    "logo": "teams/tm.png",
     "players": ["M0nkey M00n", "Nwpo", "Trk511"]
   },
   {
     "name": "R8 Esport",
     "region": "MENA",
-    "logo": "/teams/r8.png",
+    "logo": "teams/r8.png",
     "players": ["Abdullah", "Ghaazi", "M7md"]
   },
   {
     "name": "Wildcard",
     "region": "OCE",
-    "logo": "/teams/wild.png",
+    "logo": "teams/wild.png",
     "players": ["Torsos", "bananahead", "Fever"]
   },
   {
     "name": "Five Fears",
     "region": "SSA",
-    "logo": "/teams/ff.png",
+    "logo": "teams/ff.png",
     "players": ["tehqoz", "Snowyy", "gunz"]
   }
 ]

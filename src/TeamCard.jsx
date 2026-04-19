@@ -7,7 +7,11 @@ function TeamCard({ team }) {
   return (
     <Card className="text-center shadow-sm">
       <Card.Body>
-        <img src={team.logo} alt={team.name} width="80" />
+        <img 
+            src={`${import.meta.env.BASE_URL}${team.logo}`}
+            alt={team.name} 
+            width="80" 
+        />
         <Card.Title className="mt-2">{team.name}</Card.Title>
 
         <Button
