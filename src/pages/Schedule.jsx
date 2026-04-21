@@ -43,7 +43,7 @@ function Schedule() {
           {allMatches.map((match) => (
             <tr key={match.id}>
               <td>
-                <span className="badge bg-primary">Group {match.group}</span>
+                <span className="badge bg-primary">{match.group}</span>
               </td>
               <td>
                 <strong>{match.home}</strong> vs <strong>{match.away}</strong>
