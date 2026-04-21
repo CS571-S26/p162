@@ -24,6 +24,8 @@ function Schedule() {
     return matches;
   }
 
+  const allMatches = generateMatchups();
+
   return (
     <Container className="mt-4">
       <h2>Schedule</h2>
