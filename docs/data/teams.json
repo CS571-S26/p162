@@ -12,6 +12,24 @@
     "players": ["Zen", "Exotik", "Stizzy"]
   },
   {
+    "name": "Gentle Mates",
+    "region": "EU",
+    "logo": "teams/m8s.png",
+    "players": ["Archie", "Nass", "Oski"]
+  },
+  {
+    "name": "Ninjas in Pijamas",
+    "region": "EU",
+    "logo": "teams/nip.png",
+    "players": ["Joreuz", "crr", "oaly"]
+  },
+  {
+    "name": "Manchester City",
+    "region": "EU",
+    "logo": "teams/mc.png",
+    "players": ["Ejby", "Seikoo", "accro"]
+  },
+  {
     "name": "NRG",
     "region": "NA",
     "logo": "teams/nrg.png",
@@ -48,6 +66,18 @@
     "players": ["Abdullah", "Ghaazi", "M7md"]
   },
   {
+    "name": "Furia",
+    "region": "SAM",
+    "logo": "teams/fur.png",
+    "players": ["yanxnz", "lostt", "swiftt"]
+  },
+  {
+    "name": "MIBR",
+    "region": "SAM",
+    "logo": "teams/mibr.png",
+    "players": ["Reysbull", "Aztromick", "Sad"]
+  },
+  {
     "name": "Wildcard",
     "region": "OCE",
     "logo": "teams/wild.png",
@@ -58,5 +88,11 @@
     "region": "SSA",
     "logo": "teams/ff.png",
     "players": ["tehqoz", "Snowyy", "gunz"]
+  },
+  {
+    "name": "Kinotrope Gaming",
+    "region": "APAC",
+    "logo": "teams/kino.png",
+    "players": ["furlashh", "Kash", "Maxeew"]
   }
 ]

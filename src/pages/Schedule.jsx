@@ -32,7 +32,7 @@ function Schedule() {
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th>Match</th>
+            <th>Match #</th>
             <th>Date</th>
           </tr>
         </thead>
