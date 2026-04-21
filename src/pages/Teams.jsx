@@ -25,9 +25,11 @@ function Teams() {
         <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("ALL")}>All</Button>{" "}
         <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("EU")}>EU</Button>{" "}
         <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("NA")}>NA</Button>{" "}
+        <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("SAM")}>SAM</Button>{" "}
         <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("OCE")}>OCE</Button>{" "}
         <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("MENA")}>MENA</Button>{" "}
-        <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("SSA")}>SSA</Button>
+        <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("SSA")}>SSA</Button>{" "}
+        <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("APAC")}>APAC</Button>
       </div>
 
       <Row>

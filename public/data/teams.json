@@ -2,96 +2,112 @@
   {
     "name": "Karmine Corp",
     "region": "EU",
+    "group": "C",
     "logo": "teams/kc.png",
     "players": ["Vatira", "Atow", "Juicy"]
   },
   {
     "name": "Vitality",
     "region": "EU",
+    "group": "D",
     "logo": "teams/vitality.png",
     "players": ["Zen", "Exotik", "Stizzy"]
   },
   {
     "name": "Gentle Mates",
     "region": "EU",
+    "group": "A",
     "logo": "teams/m8s.png",
     "players": ["Archie", "Nass", "Oski"]
   },
   {
     "name": "Ninjas in Pijamas",
     "region": "EU",
+    "group": "A",
     "logo": "teams/nip.png",
     "players": ["Joreuz", "crr", "oaly"]
   },
   {
     "name": "Manchester City",
     "region": "EU",
+    "group": "B",
     "logo": "teams/mc.png",
     "players": ["Ejby", "Seikoo", "accro"]
   },
   {
     "name": "NRG",
     "region": "NA",
+    "group": "B",
     "logo": "teams/nrg.png",
     "players": ["Beastmode", "Daniel", "Atomic"]
   },
   {
     "name": "Spacestation Gaming",
     "region": "NA",
+    "group": "D",
     "logo": "teams/ssg.png",
     "players": ["Diaz", "Zach", "Reveal"]
   },
   {
     "name": "Shopify Rebellion",
     "region": "NA",
+    "group": "C",
     "logo": "teams/sr.png",
     "players": ["Firstkiller", "Kofyr", "Lj"]
   },
   {
     "name": "FUT Esports",
     "region": "NA",
+    "group": "A",
     "logo": "teams/fut.png",
     "players": ["Justin", "Cheese", "Chronic"]
   },
   {
     "name": "Twisted Minds",
     "region": "MENA",
+    "group": "C",
     "logo": "teams/tm.png",
     "players": ["M0nkey M00n", "Nwpo", "Trk511"]
   },
   {
     "name": "R8 Esport",
     "region": "MENA",
+    "group": "D",
     "logo": "teams/r8.png",
     "players": ["Abdullah", "Ghaazi", "M7md"]
   },
   {
     "name": "Furia",
     "region": "SAM",
+    "group": "B",
     "logo": "teams/fur.png",
     "players": ["yanxnz", "lostt", "swiftt"]
   },
   {
     "name": "MIBR",
     "region": "SAM",
+    "group": "D",
     "logo": "teams/mibr.png",
     "players": ["Reysbull", "Aztromick", "Sad"]
   },
   {
     "name": "Wildcard",
     "region": "OCE",
+    "group": "A",
     "logo": "teams/wild.png",
     "players": ["Torsos", "bananahead", "Fever"]
   },
   {
     "name": "Five Fears",
     "region": "SSA",
+    "group": "B",
     "logo": "teams/ff.png",
     "players": ["tehqoz", "Snowyy", "gunz"]
   },
   {
     "name": "Kinotrope Gaming",
     "region": "APAC",
+    "group": "C",
     "logo": "teams/kino.png",
     "players": ["furlashh", "Kash", "Maxeew"]
   }

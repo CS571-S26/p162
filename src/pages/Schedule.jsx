@@ -14,11 +14,14 @@ function Schedule() {
     const matches = [];
     for (let i = 0; i < teams.length; i++) {
       for (let j = i + 1; j < teams.length; j++) {
-        matches.push({
-          home: teams[i].name,
-          away: teams[j].name,
-          id: `${i}-${j}`
-        });
+        if (teams[i].group === teams[j].group) {
+          matches.push({
+            home: teams[i].name,
+            away: teams[j].name,
+            group: teams[i].group,
+            id: `${i}-${j}`
+          });
+        }
       }
     }
     return matches;
@@ -32,23 +35,21 @@ function Schedule() {
       <Table striped bordered hover>
         <thead>
           <tr>
-            <th>Match #</th>
-            <th>Date</th>
+            <th>Group</th>
+            <th>Matchup</th>
           </tr>
         </thead>
         <tbody>
-          {allMatches.map((match, index) => (
+          {allMatches.map((match) => (
             <tr key={match.id}>
-              <td>{index + 1}</td>
+              <td>
+                <span className="badge bg-primary">Group {match.group}</span>
+              </td>
               <td>
                 <strong>{match.home}</strong> vs <strong>{match.away}</strong>
               </td>
             </tr>
           ))}
-          {/* <tr>
-            <td>Team A vs Team B</td>
-            <td>May 20</td>
-          </tr> */}
         </tbody>
       </Table>
     </Container>
