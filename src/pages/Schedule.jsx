@@ -20,14 +20,23 @@ function Schedule() {
             away: teams[j].name,
             group: teams[i].group,
             id: `${i}-${j}`
-          });
+          })
         }
       }
     }
     return matches;
   }
 
-  const allMatches = generateMatchups();
+  const allMatches = generateMatchups()
+
+  const groupColors = {
+    "A": "bg-primary",
+    "B": "bg-success",
+    "C": "bg-danger",
+    "D": "bg-warning text-dark",
+  }
+
+  const badgeClass = groupColors[match.group] || "bg-secondary"
 
   return (
     <Container className="mt-4">
@@ -43,7 +52,7 @@ function Schedule() {
           {allMatches.map((match) => (
             <tr key={match.id}>
               <td>
-                <span className="badge bg-primary">{match.group}</span>
+                <span className={`badge ${badgeClass}`}>{match.group}</span>
               </td>
               <td>
                 <strong>{match.home}</strong> vs <strong>{match.away}</strong>
