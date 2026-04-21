@@ -36,7 +36,7 @@ function Schedule() {
     "D": "bg-warning text-dark",
   }
 
-  const badgeClass = groupColors[match.group] || "bg-secondary"
+  
 
   return (
     <Container className="mt-4">
@@ -52,7 +52,7 @@ function Schedule() {
           {allMatches.map((match) => (
             <tr key={match.id}>
               <td>
-                <span className={`badge ${badgeClass}`}>{match.group}</span>
+                <span className={`badge ${groupColors[match.group] || "bg-secondary"}`}>{match.group}</span>
               </td>
               <td>
                 <strong>{match.home}</strong> vs <strong>{match.away}</strong>
