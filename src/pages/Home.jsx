@@ -9,7 +9,7 @@ function Home() {
       <h1>Rocket League Paris Major</h1>
       <h3>Spring 2026</h3>
       <p>May 20–24</p>
-      <Button variant="primary">Sign Up</Button>
+      <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}}>Get Tickets Now!</Button>
 
       <h2 className="text-center mb-3">Official Announcement</h2>
 
@@ -20,7 +20,7 @@ function Home() {
           allowFullScreen
         ></iframe>
       </div>
-      
+
     </Container>
 
     
