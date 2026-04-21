@@ -15,7 +15,7 @@ function TeamCard({ team }) {
         <Card.Title className="mt-2">{team.name}</Card.Title>
 
         <Button
-            variant="primary"
+            variant="outline-danger"
             size="sm"
             onClick={() => setShowPlayers(!showPlayers)}
         >

@@ -22,12 +22,12 @@ function Teams() {
       <h2 className="mb-4 text-center">Qualified Teams</h2>
 
       <div className="text-center mb-4">
-        <Button onClick={() => setRegion("ALL")}>All</Button>{" "}
-        <Button onClick={() => setRegion("EU")}>EU</Button>{" "}
-        <Button onClick={() => setRegion("NA")}>NA</Button>{" "}
-        <Button onClick={() => setRegion("OCE")}>OCE</Button>{" "}
-        <Button onClick={() => setRegion("MENA")}>MENA</Button>{" "}
-        <Button onClick={() => setRegion("SSA")}>SSA</Button>
+        <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("ALL")}>All</Button>{" "}
+        <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("EU")}>EU</Button>{" "}
+        <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("NA")}>NA</Button>{" "}
+        <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("OCE")}>OCE</Button>{" "}
+        <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("MENA")}>MENA</Button>{" "}
+        <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("SSA")}>SSA</Button>
       </div>
 
       <Row>
