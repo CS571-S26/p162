@@ -41,6 +41,10 @@ function Schedule() {
   return (
     <Container className="mt-4">
       <h2>Schedule</h2>
+      <p>The 16 qualified teams will be distributed into 4 groups of 4, 
+        4th place of each group is eliminated, 2nd and 3rd places of each group move on to the lower bracket of the playoffs,
+        and 1st place advances to the upper bracket of the playoffs.
+      </p>
       <Table striped bordered hover>
         <thead>
           <tr>
