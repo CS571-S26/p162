@@ -5,12 +5,16 @@ function TeamCard({ team }) {
     const [showPlayers, setShowPlayers] = useState(false)
 
   return (
-    <Card className="text-center shadow-sm">
-      <Card.Body>
+    <Card className="text-center shadow-sm h-100">
+      <Card.Body className="d-flex flex-column justify-content-between">
         <img 
             src={`${import.meta.env.BASE_URL}${team.logo}`}
-            alt={team.name} 
-            width="80" 
+            alt={team.name}
+            style={{
+                width: "80px",
+                height: "80px",
+                objectFit: "contain"
+            }}
         />
         <Card.Title className="mt-2">{team.name}</Card.Title>
 

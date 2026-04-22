@@ -87,8 +87,8 @@ function Home() {
               The arena, designed by Christian de Portzamparc, features a massive, modular, and technologically advanced design, 
               and was home to various events in the 2024 Summer Olympics.
             </p>
-            <img src={arena} width="270" height="180" alt="Venue pictured from the outside"/>
-            <img src={arena2} width="300" height="200" alt="Venue from inside during League of Legends World Championship."/>
+            <img src={arena} width="370" height="280" alt="Venue pictured from the outside"/>
+            <img src={arena2} width="400" height="300" alt="Venue from inside during League of Legends World Championship."/>
           </Tab>
 
           <Tab eventKey="prize" title="Prize Pool">
@@ -131,7 +131,7 @@ function Home() {
                 </tr>
               </tbody>
             </Table>
-            <img src={nrgchamp} width="300" height="200" alt="NRG winning 2025 World Championship."/>
+            <img src={nrgchamp} width="400" height="300" alt="NRG winning 2025 World Championship."/>
           </Tab>
         </Tabs>
       </Card>

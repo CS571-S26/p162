@@ -32,7 +32,7 @@ function Teams() {
         <Button variant="outline-primary" style={{ borderColor: '#00008C', color: '#00008C'}} onClick={() => setRegion("APAC")}>APAC</Button>
       </div>
 
-      <Row>
+      <Row className="align-items-stretch">
         {filtered.map((team, i) => (
           <Col xs={12} sm={6} md={3} key={i} className="mb-4">
             <TeamCard team={team}/>
