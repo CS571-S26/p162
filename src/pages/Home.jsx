@@ -27,7 +27,7 @@ function Home() {
         <Tabs defaultActiveKey="overview" className="mb-3 justify-content-center">
           <Tab eventKey="overview" title="Overview">
             <h1>RLCS Paris Major featuring top teams worldwide.</h1>
-            <Image src='../assets/m8swin.jpg' rounded/>
+            <img src='../assets/m8swin.jpg'/>
             <p>The second major event of the RLCS 2026 season as these top 16 teams in the world seek to prove their skill at a major stage.</p>
             <p>Along with prize pool, the teams are also competeting to acrue RLCS points to gain themselves qualification into the largest stage in Rocket League, the World Championship.</p>
           </Tab>
