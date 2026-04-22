@@ -13,7 +13,7 @@ function TeamCard({ team }) {
             style={{
                 width: "80px",
                 height: "80px",
-                objectFit: "contain"
+                // objectFit: "contain"
             }}
         />
         <Card.Title className="mt-2">{team.name}</Card.Title>
