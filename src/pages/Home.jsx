@@ -1,6 +1,9 @@
 import { Button, Container, Card, Tab, Tabs, Table } from 'react-bootstrap'
 import rlcsLogo from '../assets/RLCS_2020_darkmode.png'
 import m8swin from '../assets/m8swin.png'
+import arena from '../assets/arena.png'
+import arena2 from '../assets/arena2.jpg'
+import nrgchamp from '../assets/nrgchamp.jpg'
 
 
 function Home() {
@@ -84,10 +87,12 @@ function Home() {
               The arena, designed by Christian de Portzamparc, features a massive, modular, and technologically advanced design, 
               and was home to various events in the 2024 Summer Olympics.
             </p>
+            <img src={arena} width="270" height="180" alt="Venue pictured from the outside"/>
+            <img src={arena2} width="300" height="200" alt="Venue from inside during League of Legends World Championship."/>
           </Tab>
 
           <Tab eventKey="prize" title="Prize Pool">
-            <p>$300,000 prize pool distributed to all competitor.</p>
+            <p>$300,000 prize pool distributed to all competitors.</p>
             <Table striped bordered hover>
               <thead>
                 <tr>
@@ -126,6 +131,7 @@ function Home() {
                 </tr>
               </tbody>
             </Table>
+            <img src={nrgchamp} width="300" height="200" alt="NRG winning 2025 World Championship."/>
           </Tab>
         </Tabs>
       </Card>
