@@ -10,10 +10,11 @@ function TeamCard({ team }) {
         <img 
             src={`${import.meta.env.BASE_URL}${team.logo}`}
             alt={team.name}
+            className="d-block mx-auto"
             style={{
                 width: "80px",
                 height: "80px",
-                // objectFit: "contain"
+                objectFit: "contain"
             }}
         />
         <Card.Title className="mt-2">{team.name}</Card.Title>
