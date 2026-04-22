@@ -1,4 +1,4 @@
-import { Button, Container, Card, Tab, Tabs } from 'react-bootstrap'
+import { Button, Container, Card, Tab, Tabs, Image } from 'react-bootstrap'
 import rlcsLogo from '../assets/RLCS_2020_darkmode.png'
 
 
@@ -13,20 +13,23 @@ function Home() {
 
       <h2 className="text-center mb-3">Official Announcement</h2>
 
-      <div className="ratio ratio-16x9">
+      <Card className="ratio ratio-16x9">
         <iframe
           src="https://www.youtube.com/embed/PrO_WmDgeko"
           title="RLCS Paris Major Announcement"
           allowFullScreen
         ></iframe>
-      </div>
+      </Card>
 
       <Card>
         <h2 className="text-center mb-3">Event Info</h2>
 
         <Tabs defaultActiveKey="overview" className="mb-3 justify-content-center">
           <Tab eventKey="overview" title="Overview">
-            <p>RLCS Paris Major featuring top teams worldwide.</p>
+            <h1>RLCS Paris Major featuring top teams worldwide.</h1>
+            <Image src='../assets/m8swin.jpg' rounded/>
+            <p>The second major event of the RLCS 2026 season as these top 16 teams in the world seek to prove their skill at a major stage.</p>
+            <p>Along with prize pool, the teams are also competeting to acrue RLCS points to gain themselves qualification into the largest stage in Rocket League, the World Championship.</p>
           </Tab>
 
           <Tab eventKey="location" title="Location">
