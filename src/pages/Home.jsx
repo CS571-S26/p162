@@ -1,5 +1,6 @@
 import { Button, Container, Card, Tab, Tabs, Image } from 'react-bootstrap'
 import rlcsLogo from '../assets/RLCS_2020_darkmode.png'
+import m8swin from '../assets/m8swin.png'
 
 
 function Home() {
@@ -27,7 +28,7 @@ function Home() {
         <Tabs defaultActiveKey="overview" className="mb-3 justify-content-center">
           <Tab eventKey="overview" title="Overview">
             <h1>RLCS Paris Major featuring top teams worldwide.</h1>
-            <img src='../assets/m8swin.png'/>
+            <img src={m8swin} alt="Fall 2026 Major Winners"/>
             <p>The second major event of the RLCS 2026 season as these top 16 teams in the world seek to prove their skill at a major stage.</p>
             <p>Along with prize pool, the teams are also competeting to acrue RLCS points to gain themselves qualification into the largest stage in Rocket League, the World Championship.</p>
           </Tab>
