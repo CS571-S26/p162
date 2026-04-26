@@ -181,4 +181,12 @@
     right: 0;
     border-right-color: var(--border);
   }
+  footer a {
+    text-decoration: none;
+    transition: 0.2s;
+  }
+
+  footer a:hover {
+    color: #ffc107;
+  }
 }

@@ -11,6 +11,7 @@ import Home from './pages/Home'
 import Teams from './pages/Teams'
 import Schedule from './pages/Schedule'
 import About from './pages/About'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Footer/>
     </>
   )
 }
