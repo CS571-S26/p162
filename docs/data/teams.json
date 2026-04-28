@@ -2,28 +2,28 @@
   {
     "name": "Karmine Corp",
     "region": "EU",
-    "group": "C",
+    "group": "A",
     "logo": "teams/kc.png",
     "players": ["Vatira", "Atow", "Juicy"]
   },
   {
     "name": "Vitality",
     "region": "EU",
-    "group": "D",
+    "group": "A",
     "logo": "teams/vitality.png",
     "players": ["Zen", "Exotik", "Stizzy"]
   },
   {
     "name": "Gentle Mates",
     "region": "EU",
-    "group": "A",
+    "group": "D",
     "logo": "teams/m8s.png",
     "players": ["Archie", "Nass", "Oski"]
   },
   {
     "name": "Ninjas in Pijamas",
     "region": "EU",
-    "group": "A",
+    "group": "C",
     "logo": "teams/nip.png",
     "players": ["Joreuz", "crr", "oaly"]
   },
@@ -79,14 +79,14 @@
   {
     "name": "Furia",
     "region": "SAM",
-    "group": "B",
+    "group": "D",
     "logo": "teams/fur.png",
     "players": ["yanxnz", "lostt", "swiftt"]
   },
   {
     "name": "MIBR",
     "region": "SAM",
-    "group": "D",
+    "group": "B",
     "logo": "teams/mibr.png",
     "players": ["Reysbull", "Aztromick", "Sad"]
   },
@@ -105,10 +105,10 @@
     "players": ["tehqoz", "Snowyy", "gunz"]
   },
   {
-    "name": "Kinotrope Gaming",
+    "name": "TSM",
     "region": "APAC",
     "group": "C",
-    "logo": "teams/kino.png",
-    "players": ["furlashh", "Kash", "Maxeew"]
+    "logo": "teams/tsm.png",
+    "players": ["Kevin", "Catalysm", "Sphinx"]
   }
 ]
