@@ -1,9 +1,9 @@
 import { Button, Container, Card, Tab, Tabs, Table } from 'react-bootstrap'
 import rlcsLogo from '../assets/RLCS_2020_darkmode.png'
-import m8swin from '../assets/m8swin.png'
-import arena from '../assets/arena.png'
-import arena2 from '../assets/arena2.jpg'
-import nrgchamp from '../assets/nrgchamp.jpg'
+// import m8swin from '../assets/m8swin.png'
+// import arena from '../assets/arena.png'
+// import arena2 from '../assets/arena2.jpg'
+// import nrgchamp from '../assets/nrgchamp.jpg'
 import InfoTabs from '../InfoTabs'
 
 

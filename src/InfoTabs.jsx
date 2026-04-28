@@ -1,4 +1,8 @@
 import { Card, Tab, Tabs, Table } from 'react-bootstrap'
+import m8swin from './assets/m8swin.png'
+import arena from './assets/arena.png'
+import arena2 from './assets/arena2.jpg'
+import nrgchamp from './assets/nrgchamp.jpg'
 
 function InfoTabs() {
     return (
