@@ -11,6 +11,7 @@ import Home from './pages/Home'
 import Teams from './pages/Teams'
 import Schedule from './pages/Schedule'
 import About from './pages/About'
+import Pickems from './pages/Pickems'
 import Footer from './Footer'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/teams">Teams</Nav.Link>
             <Nav.Link as={Link} to="/schedule">Schedule</Nav.Link>
+            <Nav.Link as={Link} to="/pickems">Pickems</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
           </Nav>
         </Container>
@@ -39,8 +41,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/teams" element={<Teams />} />
         <Route path="/schedule" element={<Schedule />} />
+        <Route path="/pickems" element={<Pickems />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      
       <Footer/>
     </>
   )
