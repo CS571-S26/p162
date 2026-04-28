@@ -1,32 +1,8 @@
-import { Button, Container, Card, Tab, Tabs, Table } from 'react-bootstrap'
-import rlcsLogo from '../assets/RLCS_2020_darkmode.png'
-import m8swin from '../assets/m8swin.png'
-import arena from '../assets/arena.png'
-import arena2 from '../assets/arena2.jpg'
-import nrgchamp from '../assets/nrgchamp.jpg'
-import InfoTabs from '../InfoTabs'
+import { Card, Tab, Tabs, Table } from 'react-bootstrap'
 
-
-function Home() {
-  return (
-    <Container className="text-center mt-5">
-      <img src={rlcsLogo} width="330" height="93" alt="RLCS Logo"/>
-      <h1>Rocket League Paris Major</h1>
-      <h3>Spring 2026</h3>
-      <p>May 20–24</p>
-      <Button variant="outline-danger">Get Tickets Now!</Button>
-
-      <h2 className="text-center mb-3">Official Announcement</h2>
-
-      <Card className="ratio ratio-16x9">
-        <iframe
-          src="https://www.youtube.com/embed/PrO_WmDgeko"
-          title="RLCS Paris Major Announcement"
-          allowFullScreen
-        ></iframe>
-      </Card>
-
-      {/* <Card>
+function InfoTabs() {
+    return (
+        <Card>
         <h2 className="text-center mb-3">Event Info</h2>
 
         <Tabs defaultActiveKey="overview" className="mb-3 justify-content-center">
@@ -135,13 +111,8 @@ function Home() {
             <img src={nrgchamp} width="400" height="300" alt="NRG winning 2025 World Championship."/>
           </Tab>
         </Tabs>
-      </Card> */}
-      <InfoTabs/>
-
-    </Container>
-
-    
-  )
+      </Card>
+    )
 }
 
-export default Home
+export default InfoTabs
