@@ -3,6 +3,7 @@ import { useState } from 'react'
 import rlcsLogo from '../assets/RLCS_2020_darkmode.png'
 import InfoTabs from '../InfoTabs'
 import TicketForm from '../TicketForm'
+import Countdown from '../Countdown'
 
 
 function Home() {
@@ -18,6 +19,8 @@ function Home() {
       <Button variant="outline-danger" onClick={() => setShowForm(true)}>
         Get Tickets Now!
       </Button>
+
+      <Countdown/>
 
       <h2 className="text-center mb-3">Official Announcement</h2>
 
