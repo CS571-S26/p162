@@ -228,6 +228,21 @@ button {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.card,
+.card-body,
+.card-title,
+.card-text {
+  color: #e5e7eb;
+}
+
+.nav-tabs .nav-link {
+  color: #cbd5f5;
+}
+
+.nav-tabs .nav-link.active {
+  color: #facc15;
+}
+
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.4);

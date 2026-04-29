@@ -34,7 +34,7 @@ function Countdown() {
   return (
     <Container className="text-center mt-4">
       <h3>Event Starts In:</h3>
-      <h4>
+      <h4 className="countdown">
         {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
       </h4>
     </Container>
